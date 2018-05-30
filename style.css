@@ -1,0 +1,102 @@
+body
+{
+	background-color: #161a23;
+}
+a
+{
+	text-decoration:none;
+}
+.content
+{ 
+  height: 100%;
+  width: 100%;
+  /*background-color: orange;*/
+}
+
+header {
+	    display: flex;
+}
+.head
+{
+	width: 68%;
+	height: 130px;
+	margin-left: 1%;
+	margin-right: 0%;
+	margin-top: 1%;
+	background-color: red; /*УДАЛИТЬ*/
+}
+.head-about
+{
+	width: 30%;
+	height: 130px;
+	margin-left: 0%;
+	margin-right: 1%;
+	margin-top: 1%;
+	/*background-color: green; /*УДАЛИТЬ*/
+}
+.menu
+{
+	width: 98%;
+	height: 60px;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	border-radius: 10px;
+	display:flex;
+	background-color: #261a48; /*#161a43; */
+}
+.menu-bl
+{
+	height: 100%;
+	width: 100%;
+	padding-left: 25%;
+	padding-right: 25%;
+	display: flex;
+}
+.menu-icons
+{
+	margin-top: 20px;
+}
+.menu-text
+{
+	margin-top: 10px;
+	font-size: 25px;
+	font-family: Impact;
+	Color: white;
+}
+.menu-text-little
+{
+	margin-top: 8px;
+	font-size: 17px;
+	font-family: Times;
+	Color: white
+}
+.menu-block
+{
+	padding: 30px 20px 30px 20px;
+    display: flex;
+    flex-direction: row;
+	text-decoration: none;
+}
+.menu-block:hover
+{
+	background-color: #DCDCDC;
+	cursor: pointer;
+	padding: 30px 20px 9px 20px;
+	border-radius: 3px;
+	color: orange;
+}
+.menu-button
+{
+	font-size: 20px;
+	font-family: Impact;
+}
+.now
+{
+	width: 98%;
+	height: 50%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	background-color: white;
+}
